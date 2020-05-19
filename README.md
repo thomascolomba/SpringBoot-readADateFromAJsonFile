@@ -7,7 +7,7 @@ java -jar ./target/readSimpleDataFromAJsonFile-0.0.1-SNAPSHOT.jar<br/>
 <br/>
 ---myConfiguration.json<br/>
 {<br/>
-  "myDate" : "2020-01-01 00:00:00"<br/>
+&nbsp;&nbsp;"myDate" : "2020-01-01 00:00:00"<br/>
 }<br/>
 ---MyJsonPropertySourceFactory.java<br/>
 Map readValue = new ObjectMapper().readValue(resource.getInputStream(), Map.class);<br/>
