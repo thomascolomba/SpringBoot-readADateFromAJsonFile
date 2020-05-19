@@ -1,4 +1,4 @@
-How to read Integer, Boolean and String from a json configuration file with Spring Boot.<br/>
+How to read a date from a json configuration file with Spring Boot.<br/>
 <br/>
 How to compile and execute :<br/>
 mvn package<br/>
